@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#123D32">
+  <title>CLIPPA | Food for Everyone</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f8f6;
+      color: #17251f;
+    }
+    header {
+      background: #123D32;
+      color: white;
+      padding: 24px 7%;
+    }
+    .logo { font-size: 30px; font-weight: 800; letter-spacing: 2px; }
+    .hero {
+      min-height: 65vh;
+      padding: 90px 8%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: #123D32;
+      color: white;
+    }
+    .hero h1 { font-size: clamp(42px, 7vw, 76px); margin: 0 0 20px; }
+    .hero p { font-size: 19px; max-width: 520px; line-height: 1.6; }
+    .button {
+      display: inline-block;
+      background: #d9edb0;
+      color: #123D32;
+      padding: 15px 25px;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: bold;
+      width: fit-content;
+      margin-top: 20px;
+    }
+    section { padding: 65px 8%; }
+    footer { padding: 25px 8%; background: #17251f; color: white; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">CLIPPA.</div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1>Food for everyone. Everywhere.</h1>
+      <p>
+        A smarter, simpler way to distribute and redeem
+        digital food vouchers.
+      </p>
+      <a class="button" href="#about">Discover CLIPPA</a>
+    </div>
+
+    <section id="about">
+      <h2>A better way to access food vouchers.</h2>
+      <p>
+        CLIPPA connects voucher distribution, consumers
+        and participating merchants through one digital platform.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    CLIPPA | A KhulumaTech Group Holdings product
+  </footer>
+</body>
+</html>
